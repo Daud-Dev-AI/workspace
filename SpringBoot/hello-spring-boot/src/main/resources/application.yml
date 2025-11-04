@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: hello-spring-boot
+        admin:
+            enabled: false
+    config:
+        name: application
+    output:
+        ansi:
+            enabled: ALWAYS
+server:
+    port: 8282
